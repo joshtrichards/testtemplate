@@ -6,7 +6,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        ### Nextcloud is a free and open-source project maintained and contributed to by over 800 individuals all around the world.
+        ### Nextcloud is a free and open-source project maintained and contributed to by over 800 (and growing!) generous and devoted individuals all around the world.
         #### 👍 Thank you for contributing your own time by making this report and helping make Nextcloud even better!
         #### Reminders:
         1. This is **not** a technical support or general troubleshooting channel. 
@@ -15,11 +15,8 @@ body:
         3. Someone **may** follow-up if more information is needed, but you **might not** receive a personal response.
         4. The priorities are: reviewing each report, triaging issues, and fixing known bugs.
         #### Note: If you run Nextcloud Server in a mission critical environment, you may wish to obtain [Enterprise support](https://nextcloud.com/support/) from Nextcloud GmbH or a [certified Nextcloud partner](https://nextcloud.com/partners/).
-  - type: checkboxes
-    id: before-posting
-    attributes:
-      label: "⚠️ We require that everyone agree to the following: ⚠️"
-      description: |
+        ## "⚠️ We require that everyone agree to the following when submitting a new bug report: ⚠️"
+        \
         (These ensure that everyone can be focused on addressing your bug report and that you get the response or help you truly need.)
         \
         1.This is not a technical support question or a general troubleshooting query.
@@ -32,6 +29,9 @@ body:
         4. I'm running a supported version of Nextcloud and all apps are up-to-date.
         *See [Maintenance and Release Schedule](https://github.com/nextcloud/server/wiki/Maintenance-and-Release-Schedule) for supported versions.*
         5. I've reviewed Nextcloud's [Code of Conduct](https://nextcloud.com/contribute/code-of-conduct/).
+  - type: checkboxes
+    id: before-posting
+    attributes:
       options:
         - label: I agree.
           required: true
