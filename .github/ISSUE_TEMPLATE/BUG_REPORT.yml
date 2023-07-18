@@ -49,12 +49,12 @@ body:
         How do you trigger this bug? Please walk us through it step by step.
       placeholder: |
         Example:
-        \ 
+          
         1. Go to '...'
         2. Click on '....'
         3. Scroll down to '....'
         4. See error
-        \
+          
         Describe the steps someone else would likely need to go through to reproduce the bug.
         Tip: The better your instructions the fastesr your bug can be triaged and addressed. 
     validations:
