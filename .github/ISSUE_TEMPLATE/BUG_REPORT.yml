@@ -14,25 +14,28 @@ body:
         2. You may never receive a direct response, but you report will be read by over 500 (!) maintainers and contributors.
         3. Someone **may** follow-up if more information is needed, but you **might not** receive a personal response.
         4. The priorities are: reviewing each report, triaging issues, and fixing known bugs.
-        \
-        **If you use Nextcloud Server and it is critical to your mission, you may obtain [Enterprise support](https://nextcloud.com/support/) from Nextcloud GmbH or a [Nextcloud *certified* partner](https://nextcloud.com/partners/).**
+        ### If you run Nextcloud Server in a mission critical environment, you may obtain [Enterprise support](https://nextcloud.com/support/) from Nextcloud GmbH or a [Nextcloud *certified* partner](https://nextcloud.com/partners/).**
   - type: checkboxes
     id: before-posting
     attributes:
-      label: "⚠️ This issue respects the following points: ⚠️"
-      description: All conditions are **required**. Your issue can be closed if these are checked incorrectly.
+      label: "⚠️ We require that everyone agree to these points. ⚠️"
+      description: This ensures that our time can be focused on addressing critical bugs and that you get the response or help you need via the most effective channel.
       options:
         - label: |
-            This is not a technical support question or a general troubleshooting query.\
+            This is not a technical support question or a general troubleshooting query.
+            \
             *If it could be, posting your query to the [Nextcloud Community Forum](https://help.nextcloud.com/) may get you assistance faster.*
           required: true
         - label: |
-            This appears to be **bug**, not local/environment specific issue.\
+            This appears to be **bug**, not local/environment specific issue.
+            \
             *If unsure, posting your query to the [Nextcloud Community Forum](https://help.nextcloud.com/) first can provide clarity.*
           required: true
         - label: |
-            This issue does not seem to already be reported.\
-            [Search existing open bugs](https://github.com/nextcloud/server/issues?q=is%3Aissue+sort%3Acreated-desc+is%3Aopen+label%3Abug) and [Search recently closed bugs](https://github.com/nextcloud/server/issues?q=is%3Aissue+is%3Aclosed+sort%3Acreated-desc+label%3Abug).\
+            This issue does not seem to already be reported.
+            \
+            [Search existing open bugs](https://github.com/nextcloud/server/issues?q=is%3Aissue+sort%3Acreated-desc+is%3Aopen+label%3Abug) and [Search recently closed bugs](https://github.com/nextcloud/server/issues?q=is%3Aissue+is%3Aclosed+sort%3Acreated-desc+label%3Abug).
+            \
             *Tip: If your bug is already reported by someone else, give it a 👍 to help us prioritize it.*
           required: true
         - label: Nextcloud Server **is** up to date. See [Maintenance and Release Schedule](https://github.com/nextcloud/server/wiki/Maintenance-and-Release-Schedule) for supported versions.
