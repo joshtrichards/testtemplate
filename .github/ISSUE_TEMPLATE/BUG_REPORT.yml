@@ -6,9 +6,9 @@ body:
   - type: markdown
     attributes:
       value: |
-        ### 👍 Thank you for contributing to our project!
-        Nextcloud is a **free and open-source** project.
-        People volunteer their time to help you, so please be patient and respectful of their time.
+        ## 👍 Thank you for contributing to our project!\
+        ### Nextcloud is a **free and open-source** project.
+        #### Many people volunteer their time to help you, so please be patient and respectful of their time.
         \
         This is **not** a technical support or general troubleshooting channel.
         \
