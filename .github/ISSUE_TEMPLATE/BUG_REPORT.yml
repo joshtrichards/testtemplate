@@ -11,9 +11,9 @@ body:
         #### Reminders:
         1. This is **not** a technical support or general troubleshooting channel. 
         2. The reader of your report may be volunteering their own time to help you, so please be patient and respectful of their time.
-        2. You may never receive a direct response, but you report will be read by over 500 (!) maintainers and contributors.
-        3. Someone **may** follow-up if more information is needed, but you **might not** receive a personal response.
-        4. The priorities are: reviewing each report, triaging issues, and fixing known bugs.
+        3. You may never receive a direct response, but you report will be read by over 500 (!) maintainers and contributors.
+        4. Someone **may** follow-up if more information is needed, but you **might not** receive a personal response.
+        5. The priorities are: reviewing each report, triaging reports, and fixing verified bugs.
         #### You can obtain [Enterprise support](https://nextcloud.com/support/) from Nextcloud GmbH or a [certified Nextcloud partner](https://nextcloud.com/partners/) if you run Nextcloud Server in a mission critical environment. In addition to helping fund development, it is the only way to receive a guaranteed and timely response.
         ### ⚠️ We require that everyone agree to the following when submitting a new bug report: ⚠️
         #### These points help ensure that the community can be focused on addressing bug reports - your bug report - and that you get the response or help you truly need in as timely manner as possible.
