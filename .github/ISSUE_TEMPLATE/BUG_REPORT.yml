@@ -38,7 +38,7 @@ body:
         Provide a brief description of the bug you're experiencing.
       placeholder: |
         A perfect description is unnecessary, but a concise and approachable description makes it more likely your report can be quickly reviewed, prioritized, and addressed by our busy volunteers, community members, and developers.
-        Any extra context or additional details can be provided at the end of this form.
+        Extra context or additional information can be provided at the end of this form in **Additional info**.
     validations:
       required: true
   - type: textarea
