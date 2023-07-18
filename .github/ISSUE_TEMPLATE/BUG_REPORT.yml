@@ -15,10 +15,8 @@ body:
         3. Someone **may** follow-up if more information is needed, but you **might not** receive a personal response.
         4. The priorities are: reviewing each report, triaging issues, and fixing known bugs.
         #### You can obtain [Enterprise support](https://nextcloud.com/support/) from Nextcloud GmbH or a [certified Nextcloud partner](https://nextcloud.com/partners/) if you run Nextcloud Server in a mission critical environment. In addition to helping fund development, it is the only way to receive a guaranteed and timely response.
-        ## ⚠️ We require that everyone agree to the following when submitting a new bug report: ⚠️
-        \
-        This ensures that everyone can be focused on addressing your bug report and that you get the response or help you truly need is as timely manner as possible.
-        \
+        ### ⚠️ We require that everyone agree to the following when submitting a new bug report: ⚠️
+        #### These points help ensure that everyone can be focused on addressing bug reports - your bug report - and that you get the response or help you truly need is as timely manner as possible.
         1.This is not a technical support question or a general troubleshooting query. *If it could be, posting your query to the [Nextcloud Community Forum](https://help.nextcloud.com/) may get you assistance faster.*
         2. This seems to be bug, not a local/environment specific issue. *If unsure, posting your query to the [Nextcloud Community Forum](https://help.nextcloud.com/) first can provide clarity.*
         3. This issue does not seem to already be reported. *You may [search existing open bugs](https://github.com/nextcloud/server/issues?q=is%3Aissue+sort%3Acreated-desc+is%3Aopen+label%3Abug) and [search recently closed bugs](https://github.com/nextcloud/server/issues?q=is%3Aissue+is%3Aclosed+sort%3Acreated-desc+label%3Abug).
