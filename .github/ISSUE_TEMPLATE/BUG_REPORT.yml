@@ -32,9 +32,10 @@ body:
   - type: textarea
     id: bug-description
     attributes:
-      label: Bug description
+      label: Describe the bug
       description: |
         Provide a brief description of the bug you're experiencing.
+        Tip: If applicable, screenshots can be uploaded into any text window to help explain your problem.
       placeholder: |
         A perfect description is unnecessary, but a concise and approachable description makes it more likely your report can be quickly reviewed, prioritized, and addressed by our busy volunteers, community members, and developers.
         Extra details or context can also be provided at the end of this form in **Additional info**.
@@ -45,21 +46,24 @@ body:
     attributes:
       label: Reproduction steps
       description: |
-        "How do you trigger this bug? Please walk us through it step by step."
+        How do you trigger this bug? Please walk us through it step by step.
       placeholder: |
-        Describe the steps someone else would likely need to go through to reproduce the bug.
-        The better your instructions the fastesr your bug can be triaged and addressed. 
         Example:
-        1. Go 'here'
-        2. Click 'there'
-        3. Do 'this'
+        \ 
+        1. Go to '...'
+        2. Click on '....'
+        3. Scroll down to '....'
+        4. See error
+        \
+        Describe the steps someone else would likely need to go through to reproduce the bug.
+        Tip: The better your instructions the fastesr your bug can be triaged and addressed. 
     validations:
       required: true
   - type: textarea
     id: expected-behavior
     attributes:
       label: Expected behavior
-      description: Describe what you expected to happen instead.
+      description: A clear and concise description of what you expected to happen.
     validations:
       required: true
   - type: dropdown
@@ -228,7 +232,7 @@ body:
   - type: textarea
     id: additional-info
     attributes:
-      label: Additional info
-      description: Any additional information you think might be related to the issue
+      label: Additional conext
+      description: Add any other context about the problem here.
       placeholder: |
         (ex. browser console errors, software versions).
