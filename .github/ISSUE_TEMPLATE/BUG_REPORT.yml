@@ -50,11 +50,10 @@ body:
       placeholder: |
         Describe the steps someone else would likely need to go through to reproduce the bug.
         The better your description is the fastesr your bug can be reviewed and addressed. 
-        Example: (1. Go 'here', 2. Click 'there'..-) 
-      value: |
-        1.
-        2.
-        3.
+        Example:
+        1. Go 'here'
+        2. Click 'there'
+        3. Do 'this'
     validations:
       required: true
   - type: textarea
