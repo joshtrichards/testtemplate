@@ -19,10 +19,9 @@ body:
         #### These points help ensure that everyone can be focused on addressing bug reports - your bug report - and that you get the response or help you truly need is as timely manner as possible.
         1. This is not a technical support question or a general troubleshooting query. *If it could be, posting your query to the [Nextcloud Community Forum](https://help.nextcloud.com/) may get you assistance faster.*
         2. This seems to be bug, not a local/environment specific issue. *If unsure, posting your query to the [Nextcloud Community Forum](https://help.nextcloud.com/) first can provide clarity.*
-        3. This issue does not seem to already be reported. *You may [search existing open bugs](https://github.com/nextcloud/server/issues?q=is%3Aissue+sort%3Acreated-desc+is%3Aopen+label%3Abug) and [search recently closed bugs](https://github.com/nextcloud/server/issues?q=is%3Aissue+is%3Aclosed+sort%3Acreated-desc+label%3Abug).*
+        3. This issue does not seem to already be reported. *You may [search existing open bugs](https://github.com/nextcloud/server/issues?q=is%3Aissue+sort%3Acreated-desc+is%3Aopen+label%3Abug) and [search recently closed bugs](https://github.com/nextcloud/server/issues?q=is%3Aissue+is%3Aclosed+sort%3Acreated-desc+label%3Abug). Tip: If your bug has already been reported by someone else, give their report a 👍 to help us prioritize it.*
         4. A supported version of Server is in-use and all apps are up-to-date. *See [Maintenance and Release Schedule](https://github.com/nextcloud/server/wiki/Maintenance-and-Release-Schedule) for supported versions.*
         5. I've reviewed Nextcloud's [Code of Conduct](https://nextcloud.com/contribute/code-of-conduct/).
-        #### Tip: If your bug has already been reported by someone else, give it a 👍 to help us prioritize it.
   - type: checkboxes
     id: before-posting
     attributes:
