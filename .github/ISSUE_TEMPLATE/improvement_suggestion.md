@@ -1,5 +1,5 @@
 ---
-name: Documentation improvement
+name: XDocumentation improvement
 about: Suggest an improvement or report a mistake
 labels: 0. Needs triage
 ---
