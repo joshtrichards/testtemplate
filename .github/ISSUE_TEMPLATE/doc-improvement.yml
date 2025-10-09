@@ -31,7 +31,7 @@ body:
         - Suggesting an improvement
         - Proposing new documentation content
         - Other
-      required: true
+      multiple: true
   - type: input
     id: links
     attributes:
@@ -44,7 +44,6 @@ body:
       label: Summary
       description: In one sentence, summarize your suggestion or report.
       placeholder: Write your summary here.
-      required: true
   - type: textarea
     id: details
     attributes:
@@ -53,7 +52,6 @@ body:
         Describe your suggestion or idea in detail. If reporting a mistake, include steps to reproduce or context.
         Example: My amazing idea is [...]
       placeholder: Describe your idea or report in detail.
-      required: true
   - type: textarea
     id: notes
     attributes:
