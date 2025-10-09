@@ -6,13 +6,12 @@ body:
   - type: markdown
     attributes:
       value: |
-        ### Thank you for helping improve our documentation!
-        All contributions—whether large or small—help make Nextcloud better and easier to use.
+        #### Thank you for helping improve our documentation!
+        All contributions - whether large or small - help make Nextcloud better and easier to use.
+        
         There is always room for improvement!
         ---
         **Before you submit:**
-        - Please check for existing issues and pull requests related to your suggestion.
-        - If your suggestion is a troubleshooting scenario or you're unsure about the solution, post on the [Nextcloud Help Forum](https://help.nextcloud.com) first.
         💡 **Tip:** Make sure you're looking at the latest version of the docs linked from [https://docs.nextcloud.com/](https://docs.nextcloud.com/).
   - type: checkboxes
     id: prechecks
@@ -20,7 +19,7 @@ body:
       label: Before You Submit
       options:
         - label: I have checked for existing issues and pull requests related to my suggestion.
-        - label: I have posted on the Nextcloud Help Forum if my suggestion is a troubleshooting scenario or I'm unsure about the solution.
+        - label: I have posted on the [Nextcloud Help Forum](https://help.nextcloud.com) if my suggestion is a troubleshooting scenario or I'm unsure about the solution.
   - type: dropdown
     id: type
     attributes:
