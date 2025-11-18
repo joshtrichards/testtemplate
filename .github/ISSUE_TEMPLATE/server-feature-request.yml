@@ -1,0 +1,147 @@
+name: "🚀 Server Feature request"
+description: Suggest an idea for Nextcloud Server
+labels:
+  - enhancement
+  - "0. Needs triage"
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for suggesting an improvement to Nextcloud Server!
+
+        - For support questions, please use the forums: https://help.nextcloud.com
+        - For security-related requests, use HackerOne: https://hackerone.com/nextcloud
+        - Please search existing issues before filing a new one.
+
+        > [!TIP]
+        > Use the 👍 reaction to show support; subscribe for updates; comment only if adding actionable details (design, scope, obstacles, potential solutions).
+
+  - type: checkboxes
+    id: preflight
+    attributes:
+      label: Pre‑submission checklist
+      options:
+        - label: This is a feature/enhancement request, not a support question.
+          required: true
+        - label: I searched existing issues and did not find a duplicate.
+          required: true
+        - label: I read the contributing guidelines and code of conduct.
+          required: true
+
+  - type: input
+    id: summary
+    attributes:
+      label: Summary
+      description: One-sentence summary of the improvement.
+      placeholder: "Add X so that Y can Z…"
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem statement
+      description: What problem does this solve and for whom? Why is current behavior insufficient?
+      placeholder: "Describe the problem, not the solution."
+    validations:
+      required: true
+
+  - type: textarea
+    id: user_stories
+    attributes:
+      label: Who benefits / user stories
+      description: Provide 1–3 user stories.
+      placeholder: |
+        - As a [role], I want [capability], so that [benefit].
+        - As a [role], I want [capability], so that [benefit].
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed solution
+      description: Describe how this could work from the user’s perspective.
+      placeholder: "Include configuration, defaults, and error states if relevant."
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      placeholder: "List other approaches and why they are less suitable."
+
+  - type: textarea
+    id: scope
+    attributes:
+      label: Scope
+      placeholder: |
+        In scope:
+        - …
+        Out of scope:
+        - …
+
+  - type: textarea
+    id: ux
+    attributes:
+      label: UI/UX
+      description: Add screenshots or simple mockups if applicable; mention accessibility considerations.
+
+  - type: textarea
+    id: security
+    attributes:
+      label: Security and privacy considerations
+      placeholder: "Data exposure, permissions, threat model changes, etc."
+
+  - type: textarea
+    id: performance
+    attributes:
+      label: Performance/scalability considerations
+      placeholder: "Expected impact on resources, large instances, clustering, etc."
+
+  - type: checkboxes
+    id: components
+    attributes:
+      label: Likely affected components (best guess)
+      options:
+        - label: Files
+        - label: Sharing
+        - label: External storage
+        - label: Encryption
+        - label: Deleted files
+        - label: Federation
+        - label: DAV (CalDAV/CardDAV)
+        - label: Theming
+        - label: Updatenotification
+        - label: Two-factor backup codes
+        - label: Lookup server connector
+        - label: OAuth2
+        - label: User LDAP
+        - label: Other / unsure
+
+  - type: textarea
+    id: risks
+    attributes:
+      label: Drawbacks / risks
+      placeholder: "List potential downsides and mitigations."
+
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance criteria
+      description: Provide testable criteria for “done.”
+      placeholder: |
+        Given …
+        When …
+        Then …
+
+  - type: textarea
+    id: related
+    attributes:
+      label: Related issues/discussions/PRs
+      placeholder: "Link to related items."
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context
+      placeholder: "Any extra context, references, or notes."
