@@ -17,7 +17,7 @@ body:
   - type: checkboxes
     id: etiquette
     attributes:
-      description: Please confirm you followed basic issue etiquette.
+      label: Please confirm you followed basic issue etiquette.
       options:
         - label: I searched existing issues (including closed ones) before opening this.
           required: true
