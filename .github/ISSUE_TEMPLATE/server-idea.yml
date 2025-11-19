@@ -12,20 +12,16 @@ body:
       value: |
         Thanks for contributing to Nextcloud!
 
-        **SECURITY MATTER? Please report potential security bugs via HackerOne (https://hackerone.com/nextcloud) following our security policy (https://nextcloud.com/security/) instead of creating a public issue.**
-
-  - type: checkboxes
-    id: etiquette
+  - type: markdown
     attributes:
-      label: Please confirm you followed basic issue etiquette.
-      options:
-        - label: I searched existing issues (including closed ones) before opening this.
-          required: true
+      value: |
+        **SECURITY MATTER? Please report potential security bugs via [Nextcloud's HackerOne](https://hackerone.com/nextcloud) profile instead of creating a public issue.**
+        See the [Nextcloud security policy](https://nextcloud.com/security/) for further details.
 
   - type: textarea
     attributes:
       label: Instructions
-      description: "Submitter: Please retain this note as-is; it will be prepended at the top of your Issue to provide so that readers of your idea know how to contribute to your suggestion."
+      description: "Submitter: Please retain this field's content as-is; it will be automatically prepended at the top of your Issue so that readers of your idea know how to contribute to your suggestion."
       value: |
         ### Like this suggestion?
         * Use the 👍 reaction to show that you are interested in the same feature.
