@@ -20,7 +20,7 @@ body:
 
   - type: textarea
     attributes:
-      label: Instructions
+      label: ----
       description: "Submitter: Please retain this field's content as-is; it will be automatically prepended at the top of your Issue so that readers of your idea know how to contribute to your suggestion."
       value: |
         ### Like this suggestion?
