@@ -17,7 +17,7 @@ Guidelines:
 * Please search existing issues first; your idea may already have been discussed or implemented.
 * This repository (https://github.com/nextcloud/server/issues) is only for issues within the Nextcloud Server code. This includes shipped apps such as Files, DAV, Encryption, External Storage, Sharing, Deleted Files, Versions, Federation, and LDAP.
 * Issues for other components should be reported in their respective repositories in the Nextcloud GitHub organization: https://github.com/nextcloud/
-* Nextcloud is an open source project backed by Nextcloud GmbH. Many contributors are volunteers and primarily focus on issues affecting home users. Paid engineers prioritize customer‑reported issues and critical defects.
+* Nextcloud is an open source project backed by Nextcloud GmbH. Many contributors are volunteers and primarily focus on issues affecting home users. Paid engineers prioritize customer-reported issues and critical defects.
 * This is the development issue tracker. Please do NOT use it for support questions or help diagnosing your installation.
   - For community/user help: https://help.nextcloud.com
   - For professional / large deployment support options: https://nextcloud.com/support
@@ -32,14 +32,14 @@ Guidelines:
 ---
 <!-- DO NOT EDIT ABOVE THIS LINE -->
 
-**Is your feature request related to a problem? Please describe.**  
-Provide a clear and concise description of the problem. For example: “I'm always frustrated when …”
+**Is your feature request related to a problem? Please describe.**
+<!-- Provide a clear and concise description of the problem. For example: “I'm always frustrated when …” -->
 
-**Describe the solution you'd like**  
-Provide a clear and concise description of what you want to happen.
+**Describe the solution you'd like**
+<!-- Provide a clear and concise description of what you want to happen. -->
 
-**Describe alternatives you've considered**  
-Provide a clear and concise description of any alternative solutions or features you've considered.
+**Describe alternatives you've considered**
+<!-- Provide a clear and concise description of any alternative solutions or features you've considered. -->
 
-**Additional context**  
-Add any other context or screenshots related to the feature request here.
+**Additional context**
+<!-- Add any other context or screenshots related to the feature request here. -->
