@@ -33,6 +33,7 @@ body:
 
   - type: textarea
     attributes:
+      label: Instructions
       description: "Submitter: Please retain this note as guidance for readers of your idea."
       value: |
         ### Like this suggestion?
