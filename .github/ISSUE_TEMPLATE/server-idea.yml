@@ -31,10 +31,11 @@ body:
         - label: This is NOT a support request.
           required: true
 
-  - type: markdown
+  - type: textarea
     attributes:
+      description: "Submitter: Please retain this note as guidance for readers of your idea."
       value: |
-        ### How to use GitHub
+        ### Like this suggestion?
         * Use the 👍 reaction to show that you are interested in the same feature.
         * Please don't comment without relevant implementation information (extra “+1” noise makes triage harder).
         * Subscribe to receive notifications on status changes and new comments.
