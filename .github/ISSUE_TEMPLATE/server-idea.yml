@@ -20,10 +20,9 @@ body:
 
   - type: textarea
     attributes:
-      label: ----
+      label: Like this suggestion?
       description: "Submitter: Please retain this field's content as-is; it will be automatically prepended at the top of your Issue so that readers of your idea know how to contribute to your suggestion."
       value: |
-        ### Like this suggestion?
         * Use the 👍 reaction to show that you are interested in the same feature.
         * Please don't comment without relevant implementation information (extra “+1” noise makes triage harder).
         * Subscribe to receive notifications on status changes and new comments.
