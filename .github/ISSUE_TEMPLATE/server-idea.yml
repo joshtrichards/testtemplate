@@ -1,0 +1,76 @@
+name: "🚀 Feature request"
+description: "Suggest an idea for this project"
+title: "[Feature] "
+labels:
+  - enhancement
+  - "0. Needs triage"
+# type frontmatter is not used in Issue Forms; labels above replace it
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting issues back to Nextcloud!
+
+        Note: This is the issue tracker of Nextcloud. Please do NOT use it to get answers to support questions or to fix your installation. Search existing issues first; your idea may already be reported.
+
+        SECURITY: Report potential security bugs via HackerOne (https://hackerone.com/nextcloud) following our security policy (https://nextcloud.com/security/) instead of filing an issue.
+
+        Only server code (and bundled server apps like files, encryption, external storage, sharing, deleted files, federation, DAV, theming, updatenotification, two‑factor backup codes, lookup server connector, OAuth2, user LDAP, etc.) belongs here.
+
+  - type: checkboxes
+    id: etiquette
+    attributes:
+      label: Usage guidelines
+      description: Please confirm you followed basic issue etiquette.
+      options:
+        - label: I searched existing issues (including closed ones) before opening this.
+          required: true
+        - label: This is about Nextcloud Server or a bundled server app (not a client or an unrelated community app).
+          required: true
+        - label: This is NOT a support request.
+          required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        ### How to use GitHub
+        * Use the 👍 reaction to show that you are interested in the same feature.
+        * Please don't comment without relevant implementation information (extra “+1” noise makes triage harder).
+        * Subscribe to receive notifications on status changes and new comments.
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Is your feature request related to a problem? Please describe.
+      description: A clear and concise description of the problem (e.g. what frustrates you, what gap exists).
+      placeholder: "I'm always frustrated when ... / It is hard to ..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: Describe the solution you'd like
+      description: A clear and concise description of what you want to happen from a user’s perspective.
+      placeholder: "I would like it if ..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Describe alternatives you've considered
+      description: Other approaches or workarounds and why they are less ideal.
+      placeholder: "Alternative 1: ... (drawback: ...)\nAlternative 2: ..."
+    validations:
+      required: false
+
+  - type: textarea
+    id: additional_context
+    attributes:
+      label: Additional context
+      description: Add any other context, logs, references, or screenshots that help clarify the request.
+      placeholder: "Screenshots, links to discussions, related issues, mockups..."
+    validations:
+      required: false
