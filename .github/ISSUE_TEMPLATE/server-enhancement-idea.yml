@@ -1,0 +1,71 @@
+name: "🚀 Feature request"
+description: Suggest an idea for Nextcloud Server
+title: "[Feature request]: "
+labels:
+  - enhancement
+  - "0. Needs triage"
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for suggesting an improvement to Nextcloud Server!
+        - For support, use the forums: https://help.nextcloud.com
+        - Security-related requests: https://hackerone.com/nextcloud (per https://nextcloud.com/security/)
+        - Please search existing issues before filing a new one.
+
+  - type: checkboxes
+    id: preflight
+    attributes:
+      label: Pre‑submission checklist
+      options:
+        - label: This is a feature/enhancement request (not a support question).
+          required: true
+        - label: I searched existing issues and did not find a duplicate.
+          required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem to solve
+      description: What problem does this address, and for whom? Why is the current behavior insufficient?
+      placeholder: "Describe the problem, not a solution."
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed solution
+      description: How could this work from the user’s perspective? Mention configuration or error states if relevant.
+      placeholder: "Describe the desired behavior or approach."
+    validations:
+      required: true
+
+  - type: dropdown
+    id: impact
+    attributes:
+      label: Impact
+      description: Rough sense of how impactful this would be.
+      options:
+        - Low (nice to have)
+        - Medium (frequent papercut)
+        - High (significant usability or adoption impact)
+    validations:
+      required: false
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context / screenshots
+      description: Links, mockups, or other details that help triage or implementation.
+      placeholder: "Add any extra context, screenshots, or references."
+    validations:
+      required: false
+
+  - type: textarea
+    id: related
+    attributes:
+      label: Related issues/discussions/PRs
+      placeholder: "Link related items here."
+    validations:
+      required: false
