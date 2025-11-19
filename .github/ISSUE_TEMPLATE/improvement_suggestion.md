@@ -1,32 +1,45 @@
 ---
-name: XDocumentation improvement
-about: Suggest an improvement or report a mistake
-labels: 0. Needs triage
+name: 🚀 Feature suggestion
+about: Suggest an idea for this project
+labels: enhancement, 0. Needs triage
+type: "Enhancement"
 ---
 
-### Thanks for helping improve our documentation! 
+<!--
+Security concern? Please report potential security issues via our HackerOne program (https://hackerone.com/nextcloud) instead of filing a public GitHub issue. See our security policy: https://nextcloud.com/security/
+-->
 
-* There is always room for improvement!
-* All contributions (changes and change ideas) - from the largest **to the tiniest** - help make Nextcloud better and easier to use!
+<!--
+Thanks for taking the time to suggest improvements to Nextcloud! Use this form to request features or propose enhancements.
 
+Guidelines:
+
+* Please search existing issues first; your idea may already have been discussed or implemented.
+* This repository (https://github.com/nextcloud/server/issues) is only for issues within the Nextcloud Server code. This includes shipped apps such as Files, DAV, Encryption, External Storage, Sharing, Deleted Files, Versions, Federation, and LDAP.
+* Issues for other components should be reported in their respective repositories in the Nextcloud GitHub organization: https://github.com/nextcloud/
+* Nextcloud is an open source project backed by Nextcloud GmbH. Many contributors are volunteers and primarily focus on issues affecting home users. Paid engineers may prioritize customer-reported issues and critical defects.
+* This is the development issue tracker. Please do NOT use it for support questions or help diagnosing your installation.
+  - For community/user help: https://help.nextcloud.com
+  - For professional / large deployment support options: https://nextcloud.com/support
+-->
+
+<!-- Please keep the note below for other contributors -->
+> [!TIP]
+> ### Help move this idea forward
+> * Use the 👍 reaction to show interest in the same feature.
+> * Avoid commenting unless you have relevant information to add; unnecessary comments generate noise for subscribers.
+> * Subscribe to receive notifications about status changes and new comments.
 ---
+<!-- DO NOT EDIT ABOVE THIS LINE -->
 
-<!-- Please insert your suggestion or idea below this line -->
+**Is your feature request related to a problem? Please describe.**  
+Provide a clear and concise description of the problem. For example: “I'm always frustrated when …”
 
-Example: My amazing idea is [...] <!-- Feel free to delete this line -->
+**Describe the solution you'd like**  
+Provide a clear and concise description of what you want to happen.
 
-<!-- Please insert your suggestion or idea above this line -->
+**Describe alternatives you've considered**  
+Provide a clear and concise description of any alternative solutions or features you've considered.
 
----
-
-#### Notes
-
-* Please be patient: this is a large open source project that is overseen by a mixture of volunteers and non-volunteers which are all ultimately busy.
-* If your suggestion is a troubleshooting scenario or one you're not 100% certain about, please post for feedback on the [Nextcloud Help Forum](https://help.nextcloud.com) first.
-  - *Then* return here to bring back your experience to help improve the documentation for clarity, etc. (and link back to the forum discussion in your report!)
-
-#### Protip: If you want to help move things along (or just help out in other ways too) here are some suggestions:
-* Look for areas where you can assist - even seemingingly unrelated areas - *because doing so frees up resources for your favorite topics and ideas*.
-* Submit a proposed change - that attempts to addresses your issue - as a pull request.
-* Paricipate in a discussion on some other unresolved [submitted idea ("issues")](https://github.com/nextcloud/documentation/issues) to help move it along.
-* Post a comment or review on someone else's [proposed change ("pull request")](https://github.com/nextcloud/documentation/pulls) to help move it along.
+**Additional context**  
+Add any other context or screenshots related to the feature request here.
