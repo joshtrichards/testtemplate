@@ -10,31 +10,22 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for reporting issues back to Nextcloud!
+        Thanks for contributing to Nextcloud!
 
-        Note: This is the issue tracker of Nextcloud. Please do NOT use it to get answers to support questions or to fix your installation. Search existing issues first; your idea may already be reported.
-
-        SECURITY: Report potential security bugs via HackerOne (https://hackerone.com/nextcloud) following our security policy (https://nextcloud.com/security/) instead of filing an issue.
-
-        Only server code (and bundled server apps like files, encryption, external storage, sharing, deleted files, federation, DAV, theming, updatenotification, two‑factor backup codes, lookup server connector, OAuth2, user LDAP, etc.) belongs here.
+        **SECURITY MATTER? Please report potential security bugs via HackerOne (https://hackerone.com/nextcloud) following our security policy (https://nextcloud.com/security/) instead of creating a public issue.**
 
   - type: checkboxes
     id: etiquette
     attributes:
-      label: Usage guidelines
       description: Please confirm you followed basic issue etiquette.
       options:
         - label: I searched existing issues (including closed ones) before opening this.
-          required: true
-        - label: This is about Nextcloud Server or a bundled server app (not a client or an unrelated community app).
-          required: true
-        - label: This is NOT a support request.
           required: true
 
   - type: textarea
     attributes:
       label: Instructions
-      description: "Submitter: Please retain this note as guidance for readers of your idea."
+      description: "Submitter: Please retain this note as-is; it will be prepended at the top of your Issue to provide so that readers of your idea know how to contribute to your suggestion."
       value: |
         ### Like this suggestion?
         * Use the 👍 reaction to show that you are interested in the same feature.
