@@ -1,5 +1,5 @@
 ---
-name: 🚀 Feature request
+name: 🚀 XFeature request
 about: Suggest an idea for this project
 labels: enhancement, 0. Needs triage
 type: "Enhancement"
